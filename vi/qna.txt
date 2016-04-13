@@ -1,0 +1,21 @@
+5. to move cursor to beginning of line- 0
+6. to move cursor to end of line- $
+7. to move cursor to beginning of file- 1G
+8. to move cursor to end of file- G$
+9. to move cursor to next word- w
+10. to replace the word "Yash" with "Chinu"-
+		:s/Yash/Chinu (to replace in the line that cursor is in)
+		:%s/Yash/Chinu (to replace in the whole text)
+11. Explain diff vi modes-
+
+	INSERT mode: Enabled by entering "i" and used to insert text in the vi
+			editor.
+
+	VI mode: Default enabled and most keyboard keys represent commands with
+		 the subsequent issuing of a key or key sequence executing the
+		 particular command.
+
+	COMMAND mode: Enabled by entering ":" when in vi mode followed by the
+			desired command such as saving, exiting, etc.
+			One exception to this is the Search command where a
+			"/" is  issued instead of ":"
