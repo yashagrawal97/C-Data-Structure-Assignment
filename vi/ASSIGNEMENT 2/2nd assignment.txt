@@ -1,0 +1,8 @@
+ How to move to next word
+ Move to end of word
+ How to perform page down
+ How to perform page up
+convert "hello" with HELLO (can be done multiple way)
+how to delete a line
+how to join two line
+convert "hello" with HELLO (using VISUAL mode)
