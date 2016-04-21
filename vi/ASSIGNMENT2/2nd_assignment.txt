@@ -1,0 +1,11 @@
+* How to move to next word- w
+* Move to end of word- E
+* How to perform page down- CTRL+f
+* How to perform page up- CTRL+b
+* convert "hello" with HELLO (can be done multiple way)-
+* how to delete a line- dd
+* how to join two line- j (joins current line with next one)
+* convert "hello" with HELLO (using VISUAL mode)
+	1. g~iw
+	2. g~nw (place cursor before the wrod and n is the no. of characters in 		the word)
+	3.gUiw
