@@ -1,3 +1,5 @@
+//program to capitalize given string
+
 #include<stdio.h>
 int main()
 {

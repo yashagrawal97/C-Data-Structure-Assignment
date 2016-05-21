@@ -1,3 +1,5 @@
+//program to find length of given string
+
 #include<stdio.h>
 int main()
 {
