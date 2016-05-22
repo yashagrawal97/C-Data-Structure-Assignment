@@ -3,6 +3,7 @@
 #include<stdio.h>
 int main()
 {
+ // UM: move the code to funtion int stringLen(char * string);
  char s[20];
  printf("Enter the string\n\n");
  scanf("%s",s);
