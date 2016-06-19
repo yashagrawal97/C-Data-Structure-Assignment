@@ -29,5 +29,6 @@ int main()
  
  printf("\n\nSorted array:\n");
  for(a=0;a<size;a++) printf("%d ",arr[a]);
+ printf("\n");
  return 0;
 }
