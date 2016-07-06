@@ -8,6 +8,7 @@ int main()
  x= (char*) malloc(i+1);
  
  for(n=0;n<i;n++) 	x[n]='a'+n;
+ 
  x[i]='\0';
 
  printf("String is:\n%s\n",x);

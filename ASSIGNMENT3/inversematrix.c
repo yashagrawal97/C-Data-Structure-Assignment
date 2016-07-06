@@ -8,16 +8,17 @@ float a[3][3]= {{1,0,0},
 		{0,1,0},
 		{0,0,1}};
 
-void makezero(float n[3][3],float a[3][3],int e,int f,int o)
+void makezero(float p[3][3],float q[3][3],int e,int f,int o)
 {
  for(int i=0;i<3;i++)
  {
-  n[e][i]-=o*n[f][i];
-  a[e][i]-=o*a[f][i];
+  p[e][i]-=o*p[f][i];
+  q[e][i]-=o*q[f][i];
  }
 }
 
-void inverse(float n[3][3],float a[3][3])		//n is original matrix and a is identity matrix
+//void inverse(float n[3][3],float a[3][3])		//n is original matrix and a is identity matrix
+void inverse()
 {
  int i,j;
  int p=(n[0][0]-1)/n[1][0];			//factor to multiply row2 and subtract from row1...
@@ -65,5 +66,5 @@ int main()
  }
  printf("\nis:\n");
 
- inverse(n,a);
+ inverse();
 }
